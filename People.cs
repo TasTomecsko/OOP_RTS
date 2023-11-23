@@ -17,23 +17,5 @@ namespace OOP_RTS
             get { return name == null ? "Anonymus" : name; } 
             set { name = value; } 
         }
-
-        public People() {}
-
-        public People(int age)
-        {
-            this.age = age;
-        }
-
-        public People(string name)
-        {
-            this.name = name;
-        }
-
-        public People(int age, string name)
-        {
-            this.age = age;
-            this.name = name;
-        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace OOP_RTS
 {
-    enum Occupations
+    enum Occupations // This is the list of the possible occupations
     {
         None,
         Forager,
